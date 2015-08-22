@@ -4,8 +4,8 @@ ul{
     padding: 0;
 }
 
-a{
-    display: inline;
+.links{
+    text-align:center;
 }
 
 .jumbotron{
