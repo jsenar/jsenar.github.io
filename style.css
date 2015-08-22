@@ -7,3 +7,7 @@ ul{
 a{
     display: inline;
 }
+
+.jumbotron{
+    text-align:center;
+}
