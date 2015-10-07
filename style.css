@@ -12,3 +12,11 @@ ul{
     text-align:center;
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
 }
+
+.projects{
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+.projects h1{
+    text-align:center;
+}
