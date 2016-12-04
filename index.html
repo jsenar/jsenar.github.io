@@ -15,7 +15,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -106,18 +106,28 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#aporhopiModal" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/aporhopi.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#autodueModal" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/autodue.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#selfCheckoutModal" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -179,7 +189,7 @@
     </div>
 
     <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="autodueModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -193,14 +203,14 @@
                         <div class="modal-body">
                             <h2>Autodue</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Autodue is a native Android application that allows users to create a to-do list. Tasks are automatically sorted based on their desired date of completion and their priority, and then they are added into free spots in the user's device calendar.</a></p>
+                            <img src="img/portfolio/autodue.png" class="img-responsive img-centered" alt="">
+                            <p>Autodue is a native Android application that allows users to create a to-do list. Tasks are automatically sorted based on their desired date of completion and their priority, and then they are added into free spots in the user's device calendar. Most of my work was focused implementing the Android RecyclerView, the option to add "off hours" where events could not be scheduled, and integrating it with Google Calendar.</a></p>
                             <ul class="list-inline item-details">
                                 <li>
                                     <strong><a href="https://github.com/jsenar/Autodue">View on Github</a></strong>
                                 </li>
                                 <li>Date:
-                                    October 2016 - December 2016
+                                    October 2015 - December 2015
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -210,7 +220,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="selfCheckoutModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -222,7 +232,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Self Checkout</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/selfcheckout.jpg" class="img-responsive img-centered" alt="">
                             <p>Self Checkout is a native Android app created during SD Hacks 2015. It uses Google's Mobile Vision API to scan product barcodes and then purchase them with Android Pay. My focus was implementing the barcode scanning as well as the frontend design work.</p>
@@ -241,6 +251,34 @@
             </div>
         </div>
     </div>
+    <div class="portfolio-modal modal fade" id="aporhopiModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Alpha Phi Omega Rho Pi</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/aporhopi.png" class="img-responsive img-centered" alt="">
+                            <p>This is the website for Alpha Phi Omega, Rho Pi Chapter, a community service based professional fraternity at UCSD. It is a Ruby on Rails web application used by over 120 active members for keeping track of member requirements, signing up for events, and tracking attendance. My contributions include implementing a mobile calendar view, adding the option to mark members late to events and give them half the possible attendance credit, and marking the total number of drivers signed up for events that go off campus.</p>
+                            <ul class="list-inline item-details">
+                                <li><strong><a href="https://aporhopi.org"></a>View Site</strong>
+                                <li>Date: May 2016 - Present</li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
