@@ -411,6 +411,7 @@ fieldset[disabled] .btn-success.active {
 .btn-secondary:active{
   color:white;
   background-color: #f7882f;
+  border-color:#f7882f;
 }
 .scroll-top {
   position: fixed;
