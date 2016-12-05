@@ -507,3 +507,7 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+
+ul.work-experience {
+  list-style-type: none;
+}
