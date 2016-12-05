@@ -91,6 +91,7 @@ header .intro-text .skills {
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
+  font-size:20px;
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
@@ -154,9 +155,14 @@ section.success {
   background: #f0e8db;
 }
 
-section.success ul li{
-  color: #666666;
+section ul li{
+  color: #808080;
 }
+
+section button{
+  margin: 0 auto;
+}
+
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
@@ -339,9 +345,9 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn-success {
-  color: white;
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  color: #808080;
+  background-color: white;
+  border-color: #2C3E50;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -350,11 +356,12 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #128f76;
-  border-color: #11866f;
+  background-color: #f7882f;
+  border-color: #2C3E50;
 }
 .btn-success:active,
 .btn-success.active,
+.btn-success:active:focus,
 .open .dropdown-toggle.btn-success {
   background-image: none;
 }
@@ -394,6 +401,16 @@ fieldset[disabled] .btn-success.active {
 .btn:active,
 .btn.active {
   outline: none;
+}
+.btn-secondary{
+  color: #2C3E50;
+  border-color: #2C3E50;
+}
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active{
+  color:white;
+  background-color: #f7882f;
 }
 .scroll-top {
   position: fixed;
