@@ -30,6 +30,9 @@ h6 {
   font-family: "Work Sans", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
+hr{
+  border: 1px solid #8c8c8c;
+}
 header {
   text-align: center;
   background: #f0e8db;
@@ -41,7 +44,7 @@ header .container {
 header img.img-circle{
   display: block;
   margin: 0 auto 20px;
-  max-width: 350px;
+  max-width: 300px;
 }
 header .intro-text .name {
   display: block;
@@ -60,7 +63,7 @@ header .intro-text .skills {
     padding-bottom: 100px;
   }
   header .intro-text .name {
-    font-size: 4.75em;
+    font-size: 5em;
   }
   header .intro-text .skills {
     font-size: 1.75em;
@@ -149,6 +152,10 @@ section h2 {
 }
 section.success {
   background: #f0e8db;
+}
+
+section.success ul li{
+  color: #666666;
 }
 @media (max-width: 767px) {
   section {
@@ -468,3 +475,4 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+
