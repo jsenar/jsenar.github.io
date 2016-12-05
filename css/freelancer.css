@@ -263,6 +263,7 @@ form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
 footer {
+  font-family: "Work Sans", Helvetica, Arial, sans-serif;;
   color: white;
 }
 footer h3 {
