@@ -14,6 +14,9 @@ p {
 p.small {
   font-size: 16px;
 }
+p.xsmall{
+  font-size: 14px;
+}
 a,
 a:hover,
 a:focus,
@@ -43,7 +46,9 @@ header .container {
   padding-bottom: 50px;
 }
 section img{
-  max-width: 200px;
+  margin:auto;
+  margin-top: 30px;
+  max-width: 175px;
 }
 header img.img-circle{
   display: block;
@@ -181,6 +186,11 @@ section button{
     padding-top: 75px;
   }
 }
+
+.caption{
+  text-align: center;
+  margin-bottom:30px;
+}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -274,6 +284,13 @@ section button{
 }
 .floating-label-form-group-with-focus label {
   color: #18BC9C;
+}
+
+.row{
+  text-align: center;
+}
+.img{
+  display: inline-block;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;

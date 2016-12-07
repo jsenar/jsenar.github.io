@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>John Senar</title>
+    <title>Autodue</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -47,6 +47,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="intro-text">
                         <span class="name">Autodue</span>
+                        <hr>
                         <p>Autodue is a native Android application that allows a user to create a to-do list where tasks have a due-date, priority, and expected duration. By using their device's calendar, Autodue is able to automatically find an empty time slots and create events for the tasks based on their priority and due date.</p>
                         <p>Autodue was created in a team of 5 for a Software Engineering course at UC San Diego. Throughout the process we worked closely with another group acting as our client. After determining their needs through user interviews, we used Agile development methods in order to deliver incremental updates and receive user feedback in short, one-week iterations.</p>
                     </div>
@@ -78,8 +79,57 @@
         <div class="container">
             <div class="col-lg-8 col-lg-offset-2">
                 <h1>Design</h1>
-                <p>After dealing with these initial problems, my team created basic mockups for our app. We did this initially working on a whiteboard, and then translating higher-fidelity wireframes. The general idea we had was to have a task list, a calendar view, and a side drawer for navigation. We also attempted to incorporate some elements of Google's material design. To do this, we added a floating action button on the task list page for adding events</p>
-                <img src="img/screenshots/autodue_homepage_empty.png">
+                <p>After dealing with these initial problems, my team created basic mockups for our app. We did this initially working on a whiteboard, and then translating higher-fidelity wireframes. The general idea we had was to have a task list and a calendar view.</p>
+                
+                <p>We also attempted to incorporate some elements of Google's material design. To do this, we added a floating action button on the task list page for adding tasks and used a side drawer for navigation.</p>
+                <div class="row img-flow">
+                    <img src="img/screenshots/autodue_drawer.png">
+                </div>
+                <div class="caption">
+                    <div class="caption-content">
+                        <p class="xsmall">Fully implemented side drawer for navigation</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class ="success">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h1>Development</h1>
+                <p>With our general design set, we were able to focus on specific functionality. My first task was to implement our to-do list. After researching the Android documentation and looking through several deprecated elements, I settled on the RecyclerView. The initial implementation was simple, and each item had only it's name, priority, and due date. Based on user feedback we added the amount of time left before the due date, the duration, and color coded each task based on priority.</p>
+                <div class="row img-flow">
+                    <img src="img/screenshots/autodue_list.png">
+                </div>
+                <div class="caption">
+                    <div class="caption-content">
+                        <p class="xsmall">Example of a to-do list</p>
+                    </div>
+                </div>
+                <p>After we had the main functionality for adding events to the user's calendar, our clients recommended that we add a way to set certain hours off-limits to the application. This way, Autodue wouldn't add events at times the user was typically asleep. Implementing this functionality was another of my responsibilities. I implemented it by allowing the user to set an interval of time where events could not be added.</p>
+                <div class="row img-flow">
+                    <img src="img/screenshots/autodue_offlimit.png">
+                </div>
+                <div class="caption">
+                    <div class="caption-content">
+                        <p class="xsmall">Off-limit hours page</p>
+                    </div>
+                </div>
+
+                <p>Here's an example of the full flow for adding a task to the to-do list and then generating the event in your Google Calendar.</p>
+                <div class="row img-flow">
+                    <img src="img/screenshots/autodue_homepage_empty.png">
+                    <img src="img/screenshots/autodue_new_task.png">
+                    <img src="img/screenshots/autodue_generate.png">
+                    <img src="img/screenshots/gcalendar.png">
+                </div>
+
+                <div class="caption">
+                    <div class="caption-content">
+                        <p class="xsmall">Completed flow for adding a task</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
