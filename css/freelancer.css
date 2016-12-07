@@ -201,7 +201,7 @@ section button{
   font-size: 20px;
   text-align: center;
   top: 50%;
-  margin-top: -20px;
+  margin-top: -12px;
   color: white;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -450,7 +450,10 @@ fieldset[disabled] .btn-success.active {
   text-align: left;
 }
 .portfolio-modal .modal-content img {
+  /*position: relative;*/
+  margin:auto;
   margin-bottom: 30px;
+  
 }
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
