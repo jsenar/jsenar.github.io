@@ -483,7 +483,14 @@ fieldset[disabled] .btn-success.active {
   /*position: relative;*/
   margin:auto;
   margin-bottom: 30px;
-  
+
+}
+.portfolio-modal .modal-content img.screenshots {
+  /*position: relative;*/
+  margin:auto;
+  margin-bottom: 30px;
+  max-width:200px;
+
 }
 .portfolio-modal .modal-content .item-details {
   margin: 30px 0;
