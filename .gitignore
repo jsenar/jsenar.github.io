@@ -1,0 +1,5 @@
+#ignore sublime text project
+*.sublime*
+
+#ignore macOS shit
+.DS_Store
