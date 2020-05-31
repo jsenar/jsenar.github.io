@@ -1,5 +1,10 @@
-#ignore sublime text project
-*.sublime*
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+package-lock.json
+yarn.lock
 
-#ignore macOS shit
+# Build directory
+/public
 .DS_Store
