@@ -35,12 +35,20 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
       )}
       <Modal
         isOpen={lightboxIsOpen}
-        onRequestClose={() => toggleLightbox(0)}
+        onRequestClose={() => toggleLightbox(selectedIndex)}
+        closeTimeoutMS={200}
+        style={{ content: { top: 0, bottom: 0, left: 0, right: 0 } }}
       >
-        <article>
+        <article className="projects">
           <img src={images[selectedIndex].source}/>
-          <h3>{images[selectedIndex].title}</h3>
+          <header>
+            <h3>{images[selectedIndex].title}</h3>
+            <p>{images[selectedIndex].tech}</p>
+            <p>{images[selectedIndex].date}</p>
+          </header>
+          <hr/>
           <p>{images[selectedIndex].description}</p>
+          <button class="button" onClick={() => toggleLightbox(selectedIndex)}>Close</button>
         </article>
       </Modal>
     </div>
