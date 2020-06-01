@@ -14,7 +14,7 @@ const Header = () => (
       </h1>
       <h1>a full stack web developer and software engineer.</h1>
 
-      <h2 style={{ marginTop: '1em', marginBottom: '0' }}>Languages</h2>
+      <h2 style={{ marginTop: '0.5em', marginBottom: '0' }}>Languages</h2>
       <ul>
         <li>JavaScript</li>
         <li>Ruby</li>
@@ -23,7 +23,7 @@ const Header = () => (
         <li>CSS</li>
         <li>SQL</li>
       </ul>
-      <h2 style={{ marginTop: '2em', marginBottom: '0' }}>Skills</h2>
+      <h2 style={{ marginTop: '0.5em', marginBottom: '0' }}>Skills</h2>
       <ul>
         <li>React</li>
         <li>Ruby on Rails</li>
