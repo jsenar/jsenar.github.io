@@ -24,7 +24,7 @@ const HomeIndex = () => {
             </h2>
           </header>
           <p>
-            I have been over 2 years of experience in full stack web development with tools such React, Ruby on Rails, and Python, to name a few. 
+            I have over 2 years of experience in full stack web development with tools such React, Ruby on Rails, and Python, to name a few. 
             I currently work as a software engineer at HP, working on the front-end for 
             HP Instant Ink, a quickly growing subscription service.
           </p>
